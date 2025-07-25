@@ -1,21 +1,949 @@
+Last login: Sun Jan 12 22:44:39 on ttys004
+burakbilen@Burak-MacBook-Pro ~ % dotnet
+zsh: command not found: dotnet
+burakbilen@Burak-MacBook-Pro ~ % dotnet
+burakbilen@Burak-MacBook-Pro ~ % /Users/burakbilen/.dotnet/dotnet ef database update --project WebApplication1/WebApplication1.csproj --startup-project WebApplication1/WebApplication1.csproj --context WebApplication1.Data.ApplicationDbContext --configuration Debug 00000000000000_CreateIdentitySchema
+Could not execute because the specified command or file was not found.
+Possible reasons for this include:
+  * You misspelled a built-in dotnet command.
+  * You intended to execute a .NET program, but dotnet-ef does not exist.
+  * You intended to run a global tool, but a dotnet-prefixed executable with this name could not be found on the PATH.
+burakbilen@Burak-MacBook-Pro ~ % zsh-l
+zsh: command not found: zsh-l
+burakbilen@Burak-MacBook-Pro ~ % zsh -l
+burakbilen@Burak-MacBook-Pro ~ % /Users/burakbilen/.dotnet/dotnet ef database update --project WebApplication1/WebApplication1.csproj --startup-project WebApplication1/WebApplication1.csproj --context WebApplication1.Data.ApplicationDbContext --configuration Debug 00000000000000_CreateIdentitySchema
+You must install .NET to run this application.
+
+App: /Users/burakbilen/.dotnet/tools/dotnet-ef
+Architecture: arm64
+App host version: 8.0.11
+.NET location: Not found
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+Download the .NET runtime:
+https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=arm64&rid=osx-arm64&os=osx.15&apphost_version=8.0.11
+burakbilen@Burak-MacBook-Pro ~ % cat .zprofile 
+export PATH=/opt/homebrew/Cellar/ruby/3.3.6/bin:/opt/homebrew/bin:$PATH
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/burakbilen/.dotnet/tools"
+burakbilen@Burak-MacBook-Pro ~ % cd /Users/burakbilen/RiderProjects/WebApplication1
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % pwd
+/Users/burakbilen/RiderProjects/WebApplication1
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % ls
+WebApplication1		WebApplication1.sln	identifier.sqlite
+burakbilen@Burak-MacBook-Pro WebApplication1 % ls -la
+total 8
+drwxr-xr-x@  6 burakbilen  staff  192 Jan 12 21:02 .
+drwxr-xr-x@  3 burakbilen  staff   96 Jan 12 19:18 ..
+drwxr-xr-x@  3 burakbilen  staff   96 Jan 12 19:18 .idea
+drwxr-xr-x@ 16 burakbilen  staff  512 Jan 12 21:35 WebApplication1
+-rw-r--r--@  1 burakbilen  staff  800 Jan 12 19:18 WebApplication1.sln
+-rw-r--r--@  1 burakbilen  staff    0 Jan 12 21:02 identifier.sqlite
+burakbilen@Burak-MacBook-Pro WebApplication1 % cd WebApplication1
+burakbilen@Burak-MacBook-Pro WebApplication1 % ls
+Areas				WebApplication1.csproj
+Controllers			app.db
+Data				appsettings.Development.json
+Models				appsettings.json
+Program.cs			bin
+Properties			obj
+Views				wwwroot
+burakbilen@Burak-MacBook-Pro WebApplication1 % dotnet ef
+zsh: command not found: dotnet
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % 
+burakbilen@Burak-MacBook-Pro WebApplication1 % cd
+burakbilen@Burak-MacBook-Pro ~ % zsh -l
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ %      
+burakbilen@Burak-MacBook-Pro ~ % ls
+AndroidStudioProjects	Library			Public
+Desktop			Movies			RiderProjects
+Documents		Music
+Downloads		Pictures
+burakbilen@Burak-MacBook-Pro ~ % ls .la
+ls: .la: No such file or directory
+burakbilen@Burak-MacBook-Pro ~ % ls -la
+total 88
+drwxr-x---+ 31 burakbilen  staff    992 Jan 12 22:56 .
+drwxr-xr-x   5 root        admin    160 Dec 17 16:48 ..
+-r--------   1 burakbilen  staff      7 Nov 17 17:26 .CFUserTextEncoding
+-rw-r--r--@  1 burakbilen  staff  10244 Dec  9 15:11 .DS_Store
+drwx------+  9 burakbilen  staff    288 Jan 12 22:41 .Trash
+drwxr-xr-x@ 12 burakbilen  staff    384 Dec 17 16:52 .android
+drwxr-xr-x@  4 burakbilen  staff    128 Jan 12 21:33 .aspnet
+drwxr-xr-x@ 20 burakbilen  staff    640 Jan 12 21:33 .dotnet
+-rw-------@  1 burakbilen  staff     16 Nov 18 16:09 .emulator_console_auth_token
+drwxr-xr-x@ 10 burakbilen  staff    320 Dec  7 19:57 .gradle
+drwxr-xr-x@  4 burakbilen  staff    128 Dec  7 19:57 .konan
+-rw-------   1 burakbilen  staff     20 Dec  7 16:11 .lesshst
+drwxr-xr-x@  3 burakbilen  staff     96 Jan 12 19:18 .local
+drwxr-xr-x@  4 burakbilen  staff    128 Jan 12 19:19 .nuget
+drwxr-xr-x@  5 burakbilen  staff    160 Dec  7 19:57 .swiftpm
+drwxr-xr-x@  4 burakbilen  staff    128 Jan 12 19:16 .templateengine
+-rw-------   1 burakbilen  staff   8301 Jan 12 22:49 .viminfo
+drwxr-xr-x@  5 burakbilen  staff    160 Nov 18 11:54 .vscode
+-rw-r--r--@  1 burakbilen  staff    277 Jan 12 22:49 .zprofile
+-rw-------@  1 burakbilen  staff   1645 Jan 12 22:50 .zsh_history
+drwx------   8 burakbilen  staff    256 Jan 12 22:46 .zsh_sessions
+drwxr-xr-x@ 11 burakbilen  staff    352 Jan  5 12:45 AndroidStudioProjects
+drwx------@  3 burakbilen  staff     96 Nov 17 17:13 Desktop
+drwx------@  3 burakbilen  staff     96 Nov 17 17:13 Documents
+drwx------+ 23 burakbilen  staff    736 Jan 12 22:41 Downloads
+drwx------@ 94 burakbilen  staff   3008 Dec 20 15:12 Library
+drwx------   4 burakbilen  staff    128 Nov 17 15:33 Movies
+drwx------+  6 burakbilen  staff    192 Dec  8 21:22 Music
+drwx------+  5 burakbilen  staff    160 Dec  8 21:17 Pictures
+drwxr-xr-x+  4 burakbilen  staff    128 Nov 17 15:24 Public
+drwxr-xr-x@  3 burakbilen  staff     96 Jan 12 19:18 RiderProjects
+burakbilen@Burak-MacBook-Pro ~ % ./dotnet/dotnet
+zsh: no such file or directory: ./dotnet/dotnet
+burakbilen@Burak-MacBook-Pro ~ % dotnet
+zsh: command not found: dotnet
+burakbilen@Burak-MacBook-Pro ~ % 
+  [Restored 9 Feb 2025 at 12:41:07]
+Last login: Sun Feb  9 12:41:07 on ttys001
+Restored session: Sun Feb  9 12:34:34 +03 2025
+burakbilen@Burak-MacBook-Pro ~ % 
+  [Restored 2 May 2025 at 09:52:41]
+Last login: Fri May  2 09:52:39 on ttys001
+Restored session: Fri May  2 09:43:03 +03 2025
+burakbilen@Burak-MacBook-Pro ~ % 
+  [Restored 24 May 2025 at 21:45:28]
+Last login: Sat May 24 21:45:28 on ttys001
+Restored session: Sat May 24 21:38:42 +03 2025
+burakbilen@Burak-MacBook-Pro ~ % cd .android/avd 
+burakbilen@Burak-MacBook-Pro avd % cd Medium_Phone.avd 
+burakbilen@Burak-MacBook-Pro Medium_Phone.avd % ls
+AVD.conf		config.ini		encryptionkey.img	multiinstance.lock	snapshots		userdata-qemu.img.qcow2
+bootcompleted.ini	data			encryptionkey.img.qcow2	read-snapshot.txt	tmpAdbCmds		userdata.img
+cache.img		emu-launch-params.txt	hardware-qemu.ini	sdcard.img		user-settings.ini	version_num.cache
+cache.img.qcow2		emulator-user.ini	hardware-qemu.ini.lock	snapshot.trace		userdata-qemu.img
+burakbilen@Burak-MacBook-Pro Medium_Phone.avd % ls -la *.lock
+-rw-------@ 1 burakbilen  staff  6 Jun  5 10:57 hardware-qemu.ini.lock
+-rw-r--r--@ 1 burakbilen  staff  0 Jun  5 10:57 multiinstance.lock
+burakbilen@Burak-MacBook-Pro Medium_Phone.avd % rm *.lock    
+burakbilen@Burak-MacBook-Pro Medium_Phone.avd % top
+burakbilen@Burak-MacBook-Pro Medium_Phone.avd % pwd
+/Users/burakbilen/.android/avd/Medium_Phone.avd
+burakbilen@Burak-MacBook-Pro Medium_Phone.avd % cd ..
+burakbilen@Burak-MacBook-Pro avd % cd ..
+burakbilen@Burak-MacBook-Pro .android % ls
+adbkey				avd				debug.keystore.lock		maps.key
+adbkey.pub			cache				emu-last-feature-flags.protobuf	modem-nv-ram-5554
+analytics.settings		debug.keystore			emu-update-last-check.ini	modem-nv-ram-5556
+burakbilen@Burak-MacBook-Pro .android % cd ..
+burakbilen@Burak-MacBook-Pro ~ % ls
+AndroidStudioProjects	Documents		Library			Music			Public
+Desktop			Downloads		Movies			Pictures		RiderProjects
+burakbilen@Burak-MacBook-Pro ~ % cd AndroidStudioProjects 
+burakbilen@Burak-MacBook-Pro AndroidStudioProjects % ls
+AllTasksCompleted					ComposeArticle
+basic-android-kotlin-compose-training-affirmations	ComposeCard
+basic-android-kotlin-compose-training-courses		Courses
+basic-android-kotlin-compose-training-cupcake		DiceRoller
+basic-android-kotlin-compose-training-dessert-clicker	HappyBirthday
+basic-android-kotlin-compose-training-dice-roller	Lemonade
+basic-android-kotlin-compose-training-superheroes	MyFirstKMMApp
+basic-android-kotlin-compose-training-unscramble	TestApp1
+basic-android-kotlin-compose-training-woof		TestApp2
+BusinessCard
+burakbilen@Burak-MacBook-Pro AndroidStudioProjects % cd basic-android-kotlin-compose-training-cupcake 
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % git status
+On branch starter
+Your branch is up to date with 'origin/starter'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   build.gradle.kts
+	modified:   gradle/wrapper/gradle-wrapper.jar
+	modified:   gradle/wrapper/gradle-wrapper.properties
+	modified:   gradlew
+	modified:   gradlew.bat
+
+no changes added to commit (use "git add" and/or "git commit -a")
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % 
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % 
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % brew
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake %     
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % 
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % 
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % 
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % 
+  [Restored 18 Jul 2025 at 10:21:10]
+Last login: Fri Jul 18 10:21:10 on ttys001
+burakbilen@Burak-MacBook-Pro basic-android-kotlin-compose-training-cupcake % cd
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % ls
+AndroidStudioProjects		github-access-token.txt		Music				RiderProjects
+Desktop				Library				Pictures
+Documents			Movies				Projects
+Downloads			mslearn-tailspin-spacegame-web	Public
+burakbilen@Burak-MacBook-Pro ~ % vi azure-git-credentials.txt
+burakbilen@Burak-MacBook-Pro ~ % vi azure-git-credentials.txt
+burakbilen@Burak-MacBook-Pro ~ % vi azure-git-credentials.txt
+burakbilen@Burak-MacBook-Pro ~ % brew update
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:20fa657858e44a4b39171d6e4111f8a9716eb62a78ebbd1491d94f90bb7b830a
+################################################################################################################################################# 100.0%
+==> Pouring portable-ruby-3.4.5.arm64_big_sur.bottle.tar.gz
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+cargo-component: Create WebAssembly components based on the component model proposal
+ccusage: CLI tool for analyzing Claude Code usage from local JSONL files
+genai-toolbox: MCP Toolbox for Databases, an open source MCP server for databases
+hdr10plus_tool: CLI utility to work with HDR10+ in HEVC files
+libdbusmenu: GLib and Gtk Implementation of the DBusMenu protocol
+lsr: Ls but with io_uring
+rqbit: Fast command-line bittorrent client and server
+sox_ng: Sound eXchange NG
+wait4x: Wait for a port or a service to enter the requested state
+wxwidgets@3.2: Cross-platform C++ GUI toolkit
+==> New Casks
+bloom: File manager
+conductor: Claude code parallelisation
+doubao: AI chat assistant
+font-medio
+font-melete
+suspicious-package@preview: Application for inspecting installer packages
+wiso-steuer-2020: Tax declaration for the fiscal year 2019
+wiso-steuer-2021: Tax declaration for the fiscal year 2020
+==> Outdated Formulae
+ca-certificates  cocoapods        gettext          harfbuzz         openssl@3        pixman           readline         ruby             ruby@3.2
+
+You have 9 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % brew install azure-cli
+==> Fetching downloads for: azure-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/azure-cli/manifests/2.75.0
+################################################################################################################################################# 100.0%
+==> Fetching dependencies for azure-cli: libsodium, ca-certificates, openssl@3, mpdecimal, sqlite and python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/manifests/1.0.20
+################################################################################################################################################# 100.0%
+==> Fetching libsodium
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:e8ba0aafe8fe7266d68630ff7ab11d7357af35dbf5113bb648a1e02bed397970
+################################################################################################################################################# 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2025-07-15
+################################################################################################################################################# 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:84e089e758e75d61228f97d54b3eb1918737a2272c747206cc4d9d75d8a3cb52
+################################################################################################################################################# 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.5.1
+################################################################################################################################################# 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:e14a37b55eb218aff8024cd9dedb2c2884f0405e2803ce5b0f9995bbbce972d3
+################################################################################################################################################# 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.1
+################################################################################################################################################# 100.0%
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:e21da583e42e86d5a2f0aedfaf7820e51b8af3065da599cff179d1a39903f3ab
+################################################################################################################################################# 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.50.3
+################################################################################################################################################# 100.0%
+==> Fetching dependencies for sqlite: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.3.1
+################################################################################################################################################# 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:3afa0c228ce704810d09d40ce7d1265777df8b9034a7bfc18f0f4c19094710a8
+################################################################################################################################################# 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:d5ac21b30a733b24e58531bfdbe510ccbe14b72972e3b71ecad78a5243f6cfb1
+################################################################################################################################################# 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.11
+################################################################################################################################################# 100.0%
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:923814bee3ec72375e400bc779d1c60f4acc65411ea72128e09725aaa971c849
+################################################################################################################################################# 100.0%
+==> Fetching azure-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:2eba4d0e8f8eda0ef29fdbd340edf54f004646fad7d053c69e9822331b9f3be5
+################################################################################################################################################# 100.0%
+==> Installing dependencies for azure-cli: libsodium, ca-certificates, openssl@3, mpdecimal, sqlite and python@3.12
+==> Installing azure-cli dependency: libsodium
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/manifests/1.0.20
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/a9a9a2e1207e214070682a14f6470fb686cbb6ba7c24c2c747c0ca0663f42557--libsodium-1.0.20.bottle_manifest.json
+==> Pouring libsodium--1.0.20.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libsodium/1.0.20: 78 files, 883.4KB
+==> Installing azure-cli dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2025-07-15
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/1b8ec93adfe410583ff46788783b030707eec1898c7ded356e25694e4c29aa32--ca-certificates-2025-07-15.bottle_manifest.json
+==> Pouring ca-certificates--2025-07-15.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-07-15: 4 files, 225.8KB
+==> Installing azure-cli dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.5.1
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/9d8c8da104539ae29f198f366fe5794ac377d96a92458ae62557e3f83b03a351--openssl@3-3.5.1.bottle_manifest.json
+==> Pouring openssl@3--3.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.5.1: 7,563 files, 35.4MB
+==> Installing azure-cli dependency: mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.1
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/dbbf60721dc54b6215f6c0988496331d4110a2a358da867a1129cd84b8166b31--mpdecimal-4.0.1.bottle_manifest.json
+==> Pouring mpdecimal--4.0.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpdecimal/4.0.1: 22 files, 645.6KB
+==> Installing azure-cli dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.50.3
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/caae514078baa0b320054492023cd6f1f3da0e6733ccb13fc00ae274821dc973--sqlite-3.50.3.bottle_manifest.json
+==> Installing sqlite dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.3.1
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/52cb2bb3f0d9e66789968b865501c41ed80dc303eb488939476b309f1d350dc5--readline-8.3.1.bottle_manifest.json
+==> Pouring readline--8.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.3.1: 56 files, 2.6MB
+==> Pouring sqlite--3.50.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.50.3: 13 files, 4.9MB
+==> Installing azure-cli dependency: python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.11
+Already downloaded: /Users/burakbilen/Library/Caches/Homebrew/downloads/3f95b7f114fe2772b6ace3eab021215b1b89b9b3ce5051db7250c61bfb2883d8--python@3.12-3.12.11.bottle_manifest.json
+==> Pouring python@3.12--3.12.11.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.12/3.12.11: 3,598 files, 67MB
+==> Installing azure-cli
+==> Pouring azure-cli--2.75.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/azure-cli/2.75.0: 18,408 files, 414.3MB
+==> Running `brew cleanup azure-cli`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % az
+
+/opt/homebrew/Cellar/azure-cli/2.75.0/libexec/lib/python3.12/site-packages/azure/batch/models/_models.py:9067: SyntaxWarning: invalid escape sequence '\ '
+  """The source port ranges to match for the rule. Valid values are '\ *' (for all ports 0 - 65535),
+/opt/homebrew/Cellar/azure-cli/2.75.0/libexec/lib/python3.12/site-packages/azure/batch/models/_models.py:9235: SyntaxWarning: invalid escape sequence '\ '
+  using brackets (for example abc[\ *] would match a file named abc*\ ). Note that both and / are
+
+Welcome to Azure CLI!
+---------------------
+Use `az -h` to see available commands or go to https://aka.ms/cli.
+
+Telemetry
+---------
+The Azure CLI collects usage data in order to improve your experience.
+The data is anonymous and does not include commandline argument values.
+The data is collected by Microsoft.
+
+You can change your telemetry settings with `az configure`.
+
+
+     /\
+    /  \    _____   _ _  ___ _
+   / /\ \  |_  / | | | \'__/ _\
+  / ____ \  / /| |_| | | |  __/
+ /_/    \_\/___|\__,_|_|  \___|
+
+
+Welcome to the cool new Azure CLI!
+
+Use `az --version` to display the current version.
+Here are the base commands:
+
+^C%                                                                                                                                                     burakbilen@Burak-MacBook-Pro ~ % az login
+A web browser has been opened at https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`.
+
+Retrieving tenants and subscriptions for the selection...
+
+[Tenant and subscription selection]
+
+No     Subscription name     Subscription ID                       Tenant
+-----  --------------------  ------------------------------------  -----------------
+[1] *  Azure subscription 1  997139fd-96fe-481b-946e-a9e209d8cfef  Default Directory
+
+The default is marked with an *; the default tenant is 'Default Directory' and subscription is 'Azure subscription 1' (997139fd-96fe-481b-946e-a9e209d8cfef).
+
+Select a subscription and tenant (Type a number or Enter for no changes): 1
+
+Tenant: Default Directory
+Subscription: Azure subscription 1 (997139fd-96fe-481b-946e-a9e209d8cfef)
+
+[Announcements]
+With the new Azure CLI login experience, you can select the subscription you want to use more easily. Learn more about it and its configuration at https://go.microsoft.com/fwlink/?linkid=2271236
+
+If you encounter any problem, please open an issue at https://aka.ms/azclibug
+
+[Warning] The login output has been updated. Please be aware that it no longer displays the full list of available subscriptions by default.
+
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % az staticwebapp upload \
+  --name sss \              
+  --resource-group EPAM-Preparation \ 
+  --source .
+'upload' is misspelled or not recognized by the system.
+
+Examples from AI knowledge base:
+https://aka.ms/cli_ref
+Read more about the command in reference docs
+burakbilen@Burak-MacBook-Pro ~ % cd Projects/my-static-app 
+burakbilen@Burak-MacBook-Pro my-static-app % ls
+index.html
+burakbilen@Burak-MacBook-Pro my-static-app % az --help
+
+Group
+    az
+
+Subgroups:
+    account                       : Manage Azure subscription information.
+    acr                           : Manage private registries with Azure Container Registries.
+    ad                            : Manage Microsoft Entra ID (formerly known as Azure Active
+                                    Directory, Azure AD, AAD) entities needed for Azure role-based
+                                    access control (Azure RBAC) through Microsoft Graph API.
+    advisor                       : Manage Azure Advisor.
+    afd                           : Manage Azure Front Door Standard/Premium.
+    aks                           : Manage Azure Kubernetes Services.
+    ams                           : Manage Azure Media Services resources.
+    apim                          : Manage Azure API Management services.
+    appconfig                     : Manage App Configurations.
+    appservice                    : Manage App Service plans.
+    aro                           : Manage Azure Red Hat OpenShift clusters.
+    backup                        : Manage Azure Backups.
+    batch                         : Manage Azure Batch.
+    bicep                         : Bicep CLI command group.
+    billing                       : Manage Azure Billing.
+    bot                           : Manage Microsoft Azure Bot Service.
+    cache                         : Commands to manage CLI objects cached using the `--defer`
+                                    argument.
+    capacity                      : Manage capacity.
+    cdn                           : Manage Azure Content Delivery Networks (CDNs).
+    cloud                         : Manage registered Azure clouds.
+    cognitiveservices             : Manage Azure Cognitive Services accounts.
+    compute-fleet       [Preview] : Manage for Azure Compute Fleet.
+    compute-recommender [Preview] : Manage sku/zone/region recommender info for compute
+                                    resources.
+    config         [Experimental] : Manage Azure CLI configuration.
+    connection                    : Commands to manage Service Connector local connections which
+                                    allow local environment to connect Azure Resource. If you want
+                                    to manage connection for compute service, please run 'az
+                                    webapp/containerapp/spring connection'.
+    consumption         [Preview] : Manage consumption of Azure resources.
+    container                     : Manage Azure Container Instances.
+    containerapp                  : Manage Azure Container Apps.
+    cosmosdb                      : Manage Azure Cosmos DB database accounts.
+    data-boundary                 : Data boundary operations.
+    databoxedge         [Preview] : Manage device with databoxedge.
+    deployment                    : Manage Azure Resource Manager template deployment at
+                                    subscription scope.
+    deployment-scripts            : Manage deployment scripts at subscription or resource group
+                                    scope.
+    disk                          : Manage Azure Managed Disks.
+    disk-access                   : Manage disk access resources.
+    disk-encryption-set           : Disk Encryption Set resource.
+    dls                 [Preview] : Manage Data Lake Store accounts and filesystems.
+    dms                           : Manage Azure Data Migration Service (classic) instances.
+    eventgrid                     : Manage Azure Event Grid topics, domains, domain topics, system
+                                    topics partner topics, event subscriptions, system topic event
+                                    subscriptions and partner topic event subscriptions.
+    eventhubs                     : Eventhubs.
+    extension                     : Manage and update CLI extensions.
+    feature                       : Manage resource provider features.
+    functionapp                   : Manage function apps. To install the Azure Functions Core tools
+                                    see https://github.com/Azure/azure-functions-core-tools.
+    group                         : Manage resource groups and template deployments.
+    hdinsight                     : Manage HDInsight resources.
+    identity                      : Manage Managed Identity.
+    image                         : Manage custom virtual machine images.
+    iot                           : Manage Internet of Things (IoT) assets.
+    keyvault                      : Manage KeyVault keys, secrets, and certificates.
+    lab                 [Preview] : Manage azure devtest labs.
+    lock                          : Manage Azure locks.
+    logicapp                      : Manage logic apps.
+    managed-cassandra             : Azure Managed Cassandra.
+    managedapp                    : Manage template solutions provided and maintained by Independent
+                                    Software Vendors (ISVs).
+    managedservices               : Manage the registration assignments and definitions in Azure.
+    maps                          : Manage Azure Maps.
+    mariadb                       : Manage Azure Database for MariaDB servers.
+    monitor                       : Manage the Azure Monitor Service.
+    mysql                         : Manage Azure Database for MySQL servers.
+    netappfiles                   : Manage Azure NetApp Files (ANF) Resources.
+    network                       : Manage Azure Network resources.
+    policy                        : Manage resource policies.
+    postgres                      : Manage Azure Database for PostgreSQL servers.
+    ppg                           : Manage Proximity Placement Groups.
+    private-link                  : Private-link association CLI command group.
+    provider                      : Manage resource providers.
+    redis                         : Manage dedicated Redis caches for your Azure applications.
+    relay                         : Manage Azure Relay Service namespaces, WCF relays, hybrid
+                                    connections, and rules.
+    resource                      : Manage Azure resources.
+    resourcemanagement            : Resourcemanagement CLI command group.
+    restore-point                 : Manage restore point with res.
+    role                          : Manage Azure role-based access control (Azure RBAC).
+    search                        : Manage Azure Search services, admin keys and query keys.
+    security                      : Manage your security posture with Microsoft Defender for Cloud.
+    servicebus                    : Servicebus.
+    sf                            : Manage and administer Azure Service Fabric clusters.
+    sig                           : Manage shared image gallery.
+    signalr                       : Manage Azure SignalR Service.
+    snapshot                      : Manage point-in-time copies of managed disks, native blobs, or
+                                    other snapshots.
+    sql                           : Manage Azure SQL Databases and Data Warehouses.
+    sshkey                        : Manage ssh public key with vm.
+    stack                         : A deployment stack is a native Azure resource type that enables
+                                    you to perform operations on a resource collection as an atomic
+                                    unit.
+    staticwebapp                  : Manage static apps.
+    storage                       : Manage Azure Cloud Storage resources.
+    synapse                       : Manage and operate Synapse Workspace, Spark Pool, SQL Pool.
+    tag                           : Tag Management on a resource.
+    term           [Experimental] : Manage marketplace agreement with marketplaceordering.
+    ts                            : Manage template specs at subscription or resource group scope.
+    vm                            : Manage Linux or Windows virtual machines.
+    vmss                          : Manage groupings of virtual machines in an Azure Virtual Machine
+                                    Scale Set (VMSS).
+    webapp                        : Manage web apps.
+
+Commands:
+    configure                     : Manage Azure CLI configuration. This command is interactive.
+    feedback                      : Send feedback to the Azure CLI Team.
+    find                          : I'm an AI robot, my advice is based on our Azure documentation
+                                    as well as the usage patterns of Azure CLI and Azure ARM users.
+                                    Using me improves Azure products and documentation.
+    interactive         [Preview] : Start interactive mode. Installs the Interactive
+                                    extension if not installed already.
+    login                         : Log in to Azure.
+    logout                        : Log out to remove access to Azure subscriptions.
+    rest                          : Invoke a custom request.
+    survey                        : Take Azure CLI survey.
+    upgrade             [Preview] : Upgrade Azure CLI and extensions.
+    version                       : Show the versions of Azure CLI modules and extensions in JSON
+                                    format by default or format configured by --output.
+
+To search AI knowledge base for examples, use: az find "az "
+
+burakbilen@Burak-MacBook-Pro my-static-app % az staticwebapp --help
+
+Group
+    az staticwebapp : Manage static apps.
+
+Subgroups:
+    appsettings     : Manage app settings the static app.
+    backends        : Link or unlink a prexisting backend with a static web app. Also known as
+                      "Bring your own API.".
+    enterprise-edge : Manage the Azure Front Door CDN for static webapps. For optimal experience and
+                      availability please check our documentation https://aka.ms/swaedge.
+    environment     : Manage environment of the static app.
+    functions       : Link or unlink a prexisting functionapp with a static webapp. Also known as
+                      "Bring your own Functions.".
+    hostname        : Manage custom hostnames of Functions of the static app.
+    identity        : Manage a static web app's managed identity.
+    secrets         : Manage deployment token for the static app.
+    users           : Manage users of the static app.
+
+Commands:
+    create          : Create a static app. To provide content to the static web app and integrate
+                      with a Github repo, provide the Github repository URL (--source) and a branch
+                      (--branch). If the repo is under a Github organization, please ensure that the
+                      Azure CLI Github App has access to the organization. Access can be requested
+                      in the browser when using the "--login-with-github" argument. Access must be
+                      granted by the organization's admin.
+    delete          : Delete a static app.
+    disconnect      : Disconnect source control to enable connecting to a different repo.
+    list            : List all static app resources in a subscription, or in resource group if
+                      provided.
+    reconnect       : Connect to a repo and branch following a disconnect command.
+    show            : Show details of a static app.
+    update          : Update a static app. Return the app updated.
+
+To search AI knowledge base for examples, use: az find "az staticwebapp"
+
+burakbilen@Burak-MacBook-Pro my-static-app % az staticwebapp list     
+[
+  {
+    "allowConfigFileUpdates": true,
+    "branch": null,
+    "buildProperties": null,
+    "contentDistributionEndpoint": "https://content-am2.infrastructure.1.azurestaticapps.net",
+    "customDomains": [],
+    "databaseConnections": [],
+    "defaultHostname": "happy-water-07b400503.1.azurestaticapps.net",
+    "enterpriseGradeCdnStatus": "Disabled",
+    "id": "/subscriptions/997139fd-96fe-481b-946e-a9e209d8cfef/resourceGroups/EPAM-Preparation/providers/Microsoft.Web/staticSites/sss",
+    "identity": null,
+    "keyVaultReferenceIdentity": "SystemAssigned",
+    "kind": null,
+    "linkedBackends": [],
+    "location": "West Europe",
+    "name": "sss",
+    "privateEndpointConnections": [],
+    "provider": "None",
+    "publicNetworkAccess": null,
+    "repositoryToken": null,
+    "repositoryUrl": null,
+    "resourceGroup": "EPAM-Preparation",
+    "sku": {
+      "capabilities": null,
+      "capacity": null,
+      "family": null,
+      "locations": null,
+      "name": "Free",
+      "size": null,
+      "skuCapacity": null,
+      "tier": "Free"
+    },
+    "stagingEnvironmentPolicy": "Enabled",
+    "tags": {},
+    "templateProperties": null,
+    "type": "Microsoft.Web/staticSites",
+    "userProvidedFunctionApps": null
+  }
+]
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % az staticwebapp delete
+the following arguments are required: --name/-n
+
+Examples from AI knowledge base:
+az staticwebapp delete --name MyStaticAppName
+Delete a static app. (autogenerated)
+
+az staticwebapp delete --name MyStaticAppName --resource-group MyRg
+Delete a static app.
+
+https://docs.microsoft.com/en-US/cli/azure/staticwebapp#az_staticwebapp_delete
+Read more about the command in reference docs
+burakbilen@Burak-MacBook-Pro my-static-app % az staticwebapp delete --name sss
+Are you sure you want to perform this operation? (y/n): y
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % brew install terraform
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+==> Fetching downloads for: terraform
+Warning: terraform has been deprecated because it changed its license to BUSL on the next release! It was disabled on 2025-04-12.
+==> Downloading https://ghcr.io/v2/homebrew/core/terraform/manifests/1.5.7-1
+################################################################################################################################################# 100.0%
+==> Fetching terraform
+==> Downloading https://ghcr.io/v2/homebrew/core/terraform/blobs/sha256:87e8faf4dc4090ff8259a2cc258ac20518c154989af694475a3105d5ad57d664
+################################################################################################################################################# 100.0%
+==> Pouring terraform--1.5.7.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+We will not accept any new Terraform releases in homebrew/core (with the BUSL license).
+The next release changed to a non-open-source license:
+https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license
+See our documentation for acceptable licences:
+  https://docs.brew.sh/License-Guidelines
+==> Summary
+🍺  /opt/homebrew/Cellar/terraform/1.5.7: 7 files, 62.3MB
+==> Running `brew cleanup terraform`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app %   
+burakbilen@Burak-MacBook-Pro my-static-app % brew tap --help
+Usage: brew tap [options] [user/repo] [URL]
+
+Tap a formula repository. If no arguments are provided, list all installed taps.
+
+With URL unspecified, tap a formula repository from GitHub using HTTPS. Since
+so many taps are hosted on GitHub, this command is a shortcut for brew tap
+user/repo https://github.com/user/homebrew-repo.
+
+With URL specified, tap a formula repository from anywhere, using any
+transport protocol that git(1) handles. The one-argument form of tap
+simplifies but also limits. This two-argument command makes no assumptions, so
+taps can be cloned from places other than GitHub and using protocols other than
+HTTPS, e.g. SSH, git, HTTP, FTP(S), rsync.
+
+      --full                       Convert a shallow clone to a full clone
+                                   without untapping. Taps are only cloned as
+                                   shallow clones if --shallow was originally
+                                   passed. (disabled)
+      --shallow                    Fetch tap as a shallow clone rather than a
+                                   full clone. Useful for continuous
+                                   integration. (disabled)
+      --custom-remote              Install or change a tap with a custom remote.
+                                   Useful for mirrors.
+      --repair                     Add missing symlinks to tap manpages and
+                                   shell completions. Correct git remote refs
+                                   for any taps where upstream HEAD branch has
+                                   been renamed.
+      --eval-all                   Evaluate all formulae, casks and aliases in
+                                   the new tap to check their validity. Enabled
+                                   by default if $HOMEBREW_EVAL_ALL is set.
+  -f, --force                      Force install core taps even under API mode.
+  -d, --debug                      Display any debugging information.
+  -q, --quiet                      Make some output more quiet.
+  -v, --verbose                    Make some output more verbose.
+  -h, --help                       Show this message.
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % brew tap hashicorp/tap
+==> Tapping hashicorp/tap
+Cloning into '/opt/homebrew/Library/Taps/hashicorp/homebrew-tap'...
+remote: Enumerating objects: 5670, done.
+remote: Counting objects: 100% (932/932), done.
+remote: Compressing objects: 100% (241/241), done.
+remote: Total 5670 (delta 813), reused 697 (delta 691), pack-reused 4738 (from 2)
+Receiving objects: 100% (5670/5670), 1010.49 KiB | 2.15 MiB/s, done.
+Resolving deltas: 100% (3972/3972), done.
+Tapped 2 casks and 32 formulae (93 files, 1.3MB).
+burakbilen@Burak-MacBook-Pro my-static-app % brew install hashicorp/tap/terraform
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+terraform 1.5.7 is already installed but outdated (so it will be upgraded).
+==> Fetching downloads for: terraform
+==> Fetching hashicorp/tap/terraform
+==> Downloading https://releases.hashicorp.com/terraform/1.12.2/terraform_1.12.2_darwin_arm64.zip
+################################################################################################################################################# 100.0%
+==> Upgrading hashicorp/tap/terraform
+  1.5.7 -> 1.12.2 
+Warning: Your Xcode (16.1) is outdated.
+Please update to Xcode 16.4 (or delete it).
+Xcode can be updated from the App Store.
+
+
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document instead before opening any issues or PRs.
+
+🍺  /opt/homebrew/Cellar/terraform/1.12.2: 5 files, 86.7MB, built in 2 seconds
+==> Running `brew cleanup terraform`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/terraform/1.5.7... (7 files, 62.3MB)
+Removing: /Users/burakbilen/Library/Caches/Homebrew/terraform_bottle_manifest--1.5.7-1... (8.3KB)
+Removing: /Users/burakbilen/Library/Caches/Homebrew/terraform--1.5.7... (18.9MB)
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % terr
+burakbilen@Burak-MacBook-Pro my-static-app % echo $SHELL
+/bin/zsh
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % 
+burakbilen@Burak-MacBook-Pro my-static-app % vi .z 
+burakbilen@Burak-MacBook-Pro my-static-app % cd
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % vi .zsh        
+burakbilen@Burak-MacBook-Pro ~ % man zsh
+burakbilen@Burak-MacBook-Pro ~ % touch .zshrc
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % chmod 0600 .zshrc 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % vi .zshrc 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % source .zshrc 
+/opt/homebrew/etc/bash_completion.d/az:79: command not found: compdef
+burakbilen@Burak-MacBook-Pro ~ % vi .zshrc    
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ %              
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % vi .zshrc    
+burakbilen@Burak-MacBook-Pro ~ % vi /opt/homebrew/etc/bash_completion.d/az 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % vi /opt/homebrew/etc/bash_completion.d/az
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % pwd
+/Users/burakbilen
+burakbilen@Burak-MacBook-Pro ~ % vi .zshrc                                
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % source .zshrc 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % az cognitiveservices  
+burakbilen@Burak-MacBook-Pro ~ % vi .zshrc    
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % history| grep remote
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % 
+burakbilen@Burak-MacBook-Pro ~ % cd Projects 
+burakbilen@Burak-MacBook-Pro Projects % ls
+index.html		my-static-app		static-web-app-2
+burakbilen@Burak-MacBook-Pro Projects % cd
+burakbilen@Burak-MacBook-Pro ~ % ls
+AndroidStudioProjects		Downloads			mslearn-tailspin-spacegame-web	Public
+azure-git-credentials.txt	github-access-token.txt		Music				RiderProjects
+Desktop				Library				Pictures
+Documents			Movies				Projects
+burakbilen@Burak-MacBook-Pro ~ % mkdir github-projects
+burakbilen@Burak-MacBook-Pro ~ % mv mslearn-tailspin-spacegame-web 
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+burakbilen@Burak-MacBook-Pro ~ % mv mslearn-tailspin-spacegame-web github-
+burakbilen@Burak-MacBook-Pro ~ % mv github- github-projects 
+burakbilen@Burak-MacBook-Pro ~ % cd github-projects 
+burakbilen@Burak-MacBook-Pro github-projects % ls
+github-
+burakbilen@Burak-MacBook-Pro github-projects % mv github- mslearn-tailspin-spacegame-web
+burakbilen@Burak-MacBook-Pro github-projects % 
+burakbilen@Burak-MacBook-Pro github-projects % 
+burakbilen@Burak-MacBook-Pro github-projects % 
+burakbilen@Burak-MacBook-Pro github-projects % ls
+mslearn-tailspin-spacegame-web
+burakbilen@Burak-MacBook-Pro github-projects % 
+burakbilen@Burak-MacBook-Pro github-projects % 
+burakbilen@Burak-MacBook-Pro github-projects % 
+burakbilen@Burak-MacBook-Pro github-projects % git clone https://github.com/burakbilen/mslearn-tailspin-spacegame-web-deploy.git
+Cloning into 'mslearn-tailspin-spacegame-web-deploy'...
+remote: Enumerating objects: 231, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 231 (delta 0), reused 0 (delta 0), pack-reused 228 (from 1)
+Receiving objects: 100% (231/231), 767.59 KiB | 1.22 MiB/s, done.
+Resolving deltas: 100% (84/84), done.
+burakbilen@Burak-MacBook-Pro github-projects % ls
+mslearn-tailspin-spacegame-web		mslearn-tailspin-spacegame-web-deploy
+burakbilen@Burak-MacBook-Pro github-projects % cd mslearn-tailspin-spacegame-web-deploy 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % ls
+CODE_OF_CONDUCT.md		LICENSE-CODE			README.md			Tailspin.SpaceGame.Web.sln
+gulpfile.js			package-lock.json		SECURITY.md
+LICENSE				package.json			Tailspin.SpaceGame.Web
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % code .
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web-deploy % cd ..
+burakbilen@Burak-MacBook-Pro github-projects % cd mslearn-tailspin-spacegame-web 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web % ls
+azure-pipelines-1.yml		gulpfile.js			package-lock.json		SECURITY.md
+azure-pipelines.yml		LICENSE				package.json			Tailspin.SpaceGame.Web
+azure-pipelines.yml.orig	LICENSE-CODE			README.md			Tailspin.SpaceGame.Web.sln
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web % 
+burakbilen@Burak-MacBook-Pro mslearn-tailspin-spacegame-web % vi azure-pipelines.yml  
+
 trigger:
 - '*'
 
 pool:
-  vmImage: 'ubuntu-20.04'
+  vmImage: 'ubuntu-latest'
   demands:
   - npm
 
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-  dotnetSdkVersion: '6.x'
+  dotnetSdkVersion: '8.x'
 
 steps:
 - task: UseDotNet@2
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
   inputs:
     version: '$(dotnetSdkVersion)'
+
+- task: NodeTool@0
+  inputs:
+      versionSpec: '18.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    sudo apt-get update
+    sudo apt-get install -y build-essential python3 g++ make
+  displayName: 'Install native build tools'
 
 - task: Npm@1
   displayName: 'Run npm install'
@@ -34,25 +962,4 @@ steps:
 
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
-  inputs:
-    command: 'restore'
-    projects: '**/*.csproj'
 
-- task: DotNetCoreCLI@2
-  displayName: 'Build the project - $(buildConfiguration)'
-  inputs:
-    command: 'build'
-    arguments: '--no-restore --configuration $(buildConfiguration)'
-    projects: '**/*.csproj'
-
-- task: DotNetCoreCLI@2
-  displayName: 'Publish the project - $(buildConfiguration)'
-  inputs:
-    command: 'publish'
-    projects: '**/*.csproj'
-    publishWebProjects: false
-    arguments: '--no-build --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
-    zipAfterPublish: true
-
-- publish: '$(Build.ArtifactStagingDirectory)'
-  artifact: drop
